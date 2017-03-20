@@ -7,7 +7,7 @@
 
 **sbt run** - to run the service instance
 
-send request:
+send request, list of tokens in SlaService.scala:
 ```
 curl -H "Content-Type: application/json" -X POST -d '{"token": "token123", "payload": "stuff to process"}' http://localhost:9999/endpoint
 ```
