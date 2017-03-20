@@ -7,6 +7,17 @@
 
 **sbt run** - to run the service instance
 
+send request:
+```
+curl -H "Content-Type: application/json" -X POST -d '{"token": "token123", "payload": "stuff to process"}' http://localhost:9999/endpoint
+```
+
+shutdown:
+```
+curl -H "Content-Type: application/json" -X POST -d '{"command":"shutdown"}' http://localhost:9999/command
+```
+
+
 **sbt test** - to run the tests
 
 ## Comments
