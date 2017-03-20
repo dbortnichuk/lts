@@ -10,6 +10,8 @@
 **sbt test** - to run the tests
 
 ## Comments
+ * Test are not 100% stable, rerun may be required
+
  * Not adhered to contract if that was completely required
  ```
  trait ThrottlingService {
